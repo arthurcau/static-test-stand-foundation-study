@@ -1,0 +1,5 @@
+key,description,undrained_shear_strength_kpa,unit_weight_n_m3,eps50
+COMPACTED_OXISOL,"Compacted Red Oxisol",120,20000,0.005
+DRY_OXISOL,"Dry Red Oxisol",60,16000,0.010
+SATURATED_OXISOL,"Saturated Red Oxisol",30,19000,0.015
+WATERLOGGED_OXISOL,"Waterlogged Red Oxisol",10,18500,0.020

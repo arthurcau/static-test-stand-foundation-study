@@ -1,0 +1,36 @@
+=== COMO INSTALAR E RODAR O FOUNDATION TOOLKIT ===
+
+Este software requer a instalação de algumas bibliotecas matemáticas básicas do Python. 
+Abra o seu terminal (ou Prompt de Comando/PowerShell) e rode o comando correspondente ao seu sistema operacional:
+
+-----------------------------------------------------------
+[WINDOWS]
+1. Instale as dependências:
+   pip install -r requirements.txt
+
+2. Rode o programa:
+   python src/foundation_toolkit.py
+-----------------------------------------------------------
+
+
+-----------------------------------------------------------
+[LINUX (Debian/Ubuntu)]
+1. Instale as dependências de sistema e do Python:
+   sudo apt update && sudo apt install -y python3-tk python3-pip
+   pip3 install -r requirements.txt
+
+2. Rode o programa:
+   python3 src/foundation_toolkit.py
+-----------------------------------------------------------
+
+
+-----------------------------------------------------------
+[MACOS (Intel & Apple Silicon)]
+1. Instale as dependências (O Mac geralmente já possui o Tcl/Tk nativo):
+   pip3 install -r requirements.txt
+
+2. Rode o programa:
+   python3 src/foundation_toolkit.py
+-----------------------------------------------------------
+
+* Nota: Se o comando "pip" ou "pip3" retornar erro de ambiente gerenciado ("externally-managed-environment"), você pode usar "pip install --user -r requirements.txt" ou usar um ambiente virtual (venv).
